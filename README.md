@@ -151,13 +151,3 @@ Lane Vision AI app/
 3. **Gradle Sync:** Allow Gradle to sync dependencies (`com.quickbirdstudios:opencv:4.5.3.0` will automatically configure).
 4. **Deploy:** Connect an Android device with USB debugging enabled, grant camera permissions, and press **Run (Shift + F10)**.
 
----
-
-## 👨‍💻 Developer & Contact
-
-**Developed by Aaron**  
-Passionate about Computer Vision, Mobile Edge AI, and Autonomous Vehicle Systems (ADAS).
-
-- **GitHub:** [Aaron Mohan](https://github.com/aaronmohan)
-- **LinkedIn:** [LinkedIn Profile](https://linkedin.com/)
-- **Repository:** [Lane Vision AI](https://github.com/aaronmohan/Lane-Vision-AI)
