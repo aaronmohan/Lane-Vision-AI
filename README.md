@@ -7,6 +7,8 @@
 [![Architecture](https://img.shields.io/badge/Architecture-Edge_Computer_Vision-blue?style=flat)](#-computer-vision-pipeline)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Lane Vision AI** is a real-time mobile computer vision application that transforms an Android smartphone into an on-device **Advanced Driver Assistance System (ADAS)**. Powered by edge-accelerated OpenCV, it detects highway lane markings, projects a dynamic drivable corridor, computes real-time vehicle-to-boundary distances in meters, and provides instant audio-visual **Lane Departure Warnings (LDWS)**—all operating 100% locally with zero cloud latency.
+
 > ### ⚡ Recruiter Quick-Scan (TL;DR)
 > - **Domain:** Mobile Computer Vision, Real-Time Edge Processing, Automotive ADAS.
 > - **What It Does:** Transforms any Android smartphone into an autonomous **Lane Departure Warning System (LDWS)** that tracks highway lane boundaries, projects a drivable corridor, and computes real-time vehicle-to-lane offsets in meters.
