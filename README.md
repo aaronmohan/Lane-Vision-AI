@@ -17,11 +17,21 @@
 
 ---
 
+## 🎥 Video Demonstration
+
+[![Lane Vision AI Real-Time Lane Detection Demo](assets/demo.gif)](https://github.com/aaronmohan/Lane-Vision-AI/blob/main/assets/opencvdemo.mp4)
+
+*Live screen recording of Lane Vision AI running real-time lane detection, corridor projection, and metric distance estimation on highway footage.*
+
+▶️ **[Click here to watch the full HD 1-Minute Demonstration Video (`assets/opencvdemo.mp4`)](https://github.com/aaronmohan/Lane-Vision-AI/blob/main/assets/opencvdemo.mp4)**
+
+---
+
 ## 📸 Visual Demos & Field Tests
 
 | Example 1: In-App Augmented Reality HUD | Example 2: Hardware-in-the-Loop Test Bench |
 | :---: | :---: |
-| ![Example 1: In-App Lane Detection HUD Overlay](assets/example1.jpg) | ![Example 2: Hardware-in-the-Loop Real-Time Testing](assets/example2.jpg) |
+| [![Example 1: In-App Lane Detection HUD Overlay](assets/example1.jpg)](assets/example1.jpg) | [![Example 2: Hardware-in-the-Loop Real-Time Testing](assets/example2.jpg)](assets/example2.jpg) |
 | *Clean UI screenshot showing active lane boundaries, drivable corridor, and metric telemetry.* | *Physical device running real-time detection on dynamic desert highway footage.* |
 
 ### Detailed Breakdown
@@ -48,34 +58,6 @@ The second demo showcases physical hardware-in-the-loop benchmarking under dynam
 - **Continuous Edge Processing:** Operates seamlessly via OpenCV's `CameraBridgeViewBase`, maintaining smooth frame rates without UI stutter or memory leaks.
 - **Environmental Resilience:** Successfully locks onto dashed and solid boundaries despite strong desert sunlight, background mountain contours, and high-contrast shadows.
 - **Real-Time Dynamic Recalibration:** Instantaneous tracking adjustments as vehicle trajectory shifts (`Right Lane: 1.54 m`, `Left Lane: 0.86 m`, `Road: 2.20 m`).
-
----
-
-## 🎥 Video Demonstration
-
-<!-- 
-HOW TO ADD YOUR VIDEO:
-Option A (GitHub Native Drag-and-Drop):
-1. Open this repo on GitHub in your browser and edit README.md (or paste into an issue description).
-2. Drag and drop your .mp4 or .mov video file directly into the markdown editor box.
-3. GitHub will upload it and generate a video link or <video> tag. Paste it below!
-
-Option B (Animated GIF):
-Convert a 5-10 second clip to a GIF, place it in assets/demo.gif, and embed:
-![Lane Vision AI Demo](assets/demo.gif)
-
-Option C (YouTube Link):
-[![Watch Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
--->
-
-> [!TIP]
-> A sample test driving video is included in the project at [`app/src/main/res/raw/videocar.mp4`](app/src/main/res/raw/videocar.mp4). You can record a clip of the app running this video, convert it to a video or GIF, and attach it here.
-
-```html
-<!-- Paste your GitHub uploaded video URL or embedded video player here -->
-<!-- Example: -->
-<!-- <video src="https://github.com/user-attachments/assets/YOUR_VIDEO_ID" controls="controls" style="max-width: 100%;"></video> -->
-```
 
 ---
 
@@ -154,7 +136,9 @@ Integrated directly into the camera lifecycle inside [`videoClass.java`](app/src
 
 ```
 Lane Vision AI app/
-├── assets/                          # Documentation screenshots & visual assets
+├── assets/                          # Documentation demos & visual assets
+│   ├── demo.gif                     # Animated real-time demo preview
+│   ├── opencvdemo.mp4               # Full HD field demonstration video
 │   ├── example1.jpg                 # Example 1: In-app detection HUD screenshot
 │   └── example2.jpg                 # Example 2: Hardware field-test photo
 ├── app/
