@@ -1,4 +1,4 @@
-# Lane Vision AI 🛣️🚗
+# Lane Vision AI — OpenCV Edition 🛣️🚗
 ### Real-Time On-Device Lane Detection & Advanced Driver Assistance System (ADAS) for Android
 
 [![Android](https://img.shields.io/badge/Platform-Android_API_24+-3DDC84?style=flat&logo=android&logoColor=white)](https://developer.android.com)
@@ -8,10 +8,11 @@
 [![Architecture](https://img.shields.io/badge/Architecture-Edge_Computer_Vision-blue?style=flat)](#-computer-vision-pipeline)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Lane Vision AI** is an on-device mobile computer vision application that transforms an Android smartphone into an **Advanced Driver Assistance System (ADAS)**. Powered by edge-accelerated OpenCV, it detects highway lane markings, projects a dynamic drivable corridor, computes real-time vehicle-to-boundary distances in meters, and delivers instantaneous audio-visual **Lane Departure Warnings (LDWS)**—all operating 100% locally with zero cloud dependencies or network latency.
+**Lane Vision AI (OpenCV Edition)** is an on-device mobile computer vision application that transforms an Android smartphone into an **Advanced Driver Assistance System (ADAS)**. Powered by edge-accelerated OpenCV, it detects highway lane markings, projects a dynamic drivable corridor, computes real-time vehicle-to-boundary distances in meters, and delivers instantaneous audio-visual **Lane Departure Warnings (LDWS)**—all operating 100% locally with zero cloud dependencies or network latency.
 
 > ### ⚡ Recruiter Quick-Scan (TL;DR)
 > - **Domain:** Mobile Computer Vision, Real-Time Edge Processing, Automotive ADAS.
+> - **Edition:** **OpenCV Edition** (Classical Edge CV: Canny, Hough Transform, Polygon Corridor). *Distinguished from the upcoming deep learning TensorFlow Edition.*
 > - **What It Does:** Converts an Android smartphone into an on-device **Lane Departure Warning System (LDWS)** that tracks highway lane boundaries, projects a drivable corridor, and computes real-time vehicle-to-lane offsets in meters.
 > - **Core Engineering Highlight:** **100% on-device edge computation** via hardware-accelerated **OpenCV 4.5.3**—zero cloud dependencies, zero network latency, and complete operational privacy.
 
