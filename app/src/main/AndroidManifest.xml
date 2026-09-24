@@ -25,8 +25,9 @@
 
         tools:targetApi="31">
         <activity
-            android:name=".InstructionsActivity"
-            android:exported="true">
+            android:name=".videoClass"
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,9 +36,8 @@
         </activity>
 
         <activity
-            android:name=".videoClass"
-            android:screenOrientation="landscape"
-            />
+            android:name=".InstructionsActivity"
+            android:exported="false" />
 
 
         <meta-data
